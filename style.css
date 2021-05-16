@@ -3,9 +3,10 @@ body{
  background: linear-gradient( #329e15 0%,#15eb2a);
 }
 img{
-  width:90px;
-  height:70px;
-  border-radius:70px;
+  width:100px;
+  height:100px;
+transition: transform .2s;
+    border: 10px solid #AAAAAA;
 }
 #h1{
   color:darkgreen;
@@ -38,4 +39,7 @@ p{
 .links:hover{
     font-size: 30px;
     color:darkgreen;
+}
+img:hover{
+    transform: scale(0.9;)
 }
