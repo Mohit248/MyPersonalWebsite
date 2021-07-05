@@ -43,3 +43,13 @@ p{
 img:hover{
     transform: scale(0.9;)
 }
+#books a{
+    text-shadow: none !important;
+    text-decoration: underline !underline;
+    color: blue !important;
+}
+#inspiration a{
+    text-shadow: none !important;
+    text-decoration: underline !underline;
+    color: blue !important;
+}
